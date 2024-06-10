@@ -18,13 +18,13 @@ This Terraform configuration provisions an SQS queue and sets up CloudWatch Alar
 
 3. **Initialize Terraform**: Run the following command to initialize Terraform in the directory:
 
-terraform init 
+     terraform init 
 
 4. **Review Variables (Optional)**: Open the `variables.tf` file and review the variables. You can adjust the default values according to your requirements.
 
 5. **Apply the Configuration**: Apply the Terraform configuration by running:
 
-terraform apply
+    terraform apply
 
 6. **Verify Resources**: Once the configuration is applied successfully, verify that the SQS queue, CloudWatch Alarm, and SNS topic are created in the AWS Management Console.
 
@@ -46,7 +46,7 @@ After testing or when you no longer need the resources, it's important to clean 
 
 1. Run the following command to destroy the resources created by Terraform:
 
-terraform destroy
+   terraform destroy
 
 2. Confirm the destruction when prompted.
 
