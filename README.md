@@ -1,5 +1,3 @@
-# aws-monitoring
-
 # Setting up CloudWatch Alarms for SQS Queue Utilization using Terraform
 
 This Terraform configuration provisions an SQS queue and sets up CloudWatch Alarms to monitor the queue's utilization. The alarms automatically get implemented whenever new resources are created, fulfilling the requirement of intervention-free monitoring.
